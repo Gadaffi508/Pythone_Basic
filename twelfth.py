@@ -1,8 +1,8 @@
 enemies = 1
 
 def increase_enemies():
-    enemies = 2
     print(f"enemies inside function: {enemies}")
+    return enemies + 1
 
 increase_enemies()
 print(f"enemies outside function: {enemies}")
@@ -33,3 +33,7 @@ def create_enemy():
     print(new_enemy)
 
 create_enemy()
+
+PI = 3.14159
+URL = "http://www.google.com"
+Insta = "@mryusufby"
